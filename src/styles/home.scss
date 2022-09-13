@@ -1,0 +1,174 @@
+.banner-container {
+    height: 700px;
+    background-image: url(../assets/baner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 2px -3px 400px 68px rgba(0,0,0,1) inset;
+
+    color: whitesmoke;
+
+    h1 {
+        margin: 0;
+        font-size: 3rem;
+    }
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    
+    .ayuda {
+        width: auto;
+        margin-top: 11%;
+        margin-left: 10%;
+
+        span {
+            color: #f1c40f;
+        }
+    }
+
+    .nosotros {
+        width: auto;
+        margin-top: 5%;
+        text-align: center;
+
+        span {
+            color: #f1c40f;
+        }
+    }
+
+    .boton {
+        margin: 0 auto;
+        margin-top: 10%;
+        background-color: #f1c40f;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: lightslategrey;
+            color: #f1c40f;
+        }
+    }
+}
+
+.whatsapp-icon img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 100;
+
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.info-cartas {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -70px;
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 250px;
+        width: 250px;
+        margin: 0 10px;
+        background-color: rgb(50, 49, 49);
+        text-align: center;
+        color: whitesmoke;
+
+        h2 {
+            margin: 15px;
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    }
+}
+
+.main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+
+    h1 {
+        margin: 0;
+        font-size: 3rem;
+    }
+    margin-top: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    
+    button {
+        background-color: #f1c40f;
+        padding: 15px 40px;
+        border-radius: 10px;
+        color: white;
+        font-size: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s;
+        border: none;
+        
+
+        &:hover {
+            background-color: lightslategrey;
+            color: #f1c40f;
+        }
+    }
+
+}
+
+.beneficios-sections {
+    background-color: rgb(51, 50, 50);
+    text-align: center;
+    color: aliceblue;
+    height: 300px;
+    box-shadow: 8px 4px 337px 18px rgba(0,0,0,0.86) inset;
+
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-items: center;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        border: solid 3px white;
+        height: 200px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+
+        svg {
+            font-size: 1.5rem;
+        }
+    }
+}
