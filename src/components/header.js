@@ -13,8 +13,8 @@ const Header = () => {
         </div>
         <div className='nav-bar'>
             <a href='#inicio'>Inicio</a> 
-            <a href='#staff'>Staff</a>
-            <a href='#redes'>Siguenos</a>
+            <a href='#staff'>Quienes somos</a>
+            <a href='#redes'>Nuestros servicios</a>
         </div>
     </div>
   );

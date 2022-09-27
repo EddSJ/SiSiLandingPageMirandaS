@@ -44,7 +44,7 @@ const Form = () => {
     };
 
   return (
-    <div className='form-map-wrapper'>
+    <div className='form-map-wrapper' id='formulario'>
         <div className="form-map-grid">
             <form onSubmit={sendEmail}>
                 <h1>Contacta con un especialista</h1>

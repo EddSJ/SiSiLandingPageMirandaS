@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 import React from 'react';
 
@@ -38,14 +38,14 @@ const Footer = () => {
           </div>
           <div className='middle-row'>
             <h2>Contacto</h2>
-            <p>Direccion: Francisco de Zela Nro. 1683</p>
+            <p>•	Dirección: Jirón Francisco de Zela Nro. 1683 Oficina 301, Lince.</p>
             <p> <FontAwesomeIcon icon={faPhone} />:  +51 945449294</p>
-            <p> <FontAwesomeIcon icon={faEnvelope} />: estudio.mirandaramos@gmail.com</p>
+            <p> <FontAwesomeIcon icon={faEnvelope} />: inbox@estudiomirandaramos.com</p>
           </div>
           <div className='right-row' id='redes'>
             <p><b>Siguenos</b></p>
             <FaFacebookSquare className='facebook' onClick={linkFacebook} />
-            <FaInstagram className='instagram' />
+            <FaTwitter className='twitter' />
             <FaLinkedin className='linkedin' />
           </div>
         </div>

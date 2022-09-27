@@ -1,3 +1,11 @@
+.background-banner {
+    background-image: url(../assets/background.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .banner-container {
     height: 700px;
     background-image: url(../assets/baner.jpg);
@@ -5,6 +13,8 @@
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 2px -3px 400px 68px rgba(0,0,0,1) inset;
+    opacity: 0.9;
+    
 
     color: whitesmoke;
 
@@ -45,14 +55,22 @@
         padding: 15px 40px;
         border: none;
         border-radius: 10px;
-        color: white;
         font-size: 1.5rem;
         cursor: pointer;
         transition: 0.3s;
 
         &:hover {
             background-color: lightslategrey;
-            color: #f1c40f;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+
+            &:hover {
+                color: #f1c40f;
+            }
         }
     }
 }
@@ -83,21 +101,24 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 250px;
-        width: 250px;
+        height: 400px;
+        width: 360px;
         margin: 0 10px;
         background-color: rgb(50, 49, 49);
         text-align: center;
         color: whitesmoke;
+        z-index: 2;
+        letter-spacing: 1px;
+
 
         h2 {
             margin: 15px;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
 
         p {
             margin: 0;
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
     }
 }
@@ -150,9 +171,9 @@
 
 }
 
-.beneficios-grid {
+.alianza-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     justify-items: center;
 
@@ -160,15 +181,21 @@
         display: flex;
         flex-direction: column;
         color: white;
-        border: solid 3px white;
         height: 200px;
         width: 200px;
         justify-content: center;
         align-items: center;
         font-size: 0.8rem;
+        margin-top: 25px;
+        cursor: pointer;
 
-        svg {
-            font-size: 1.5rem;
+        img {
+            width: 150px;
+            height: auto;
+        }
+
+        &:hover {
+            transform: scale(1.1);
         }
     }
 }
