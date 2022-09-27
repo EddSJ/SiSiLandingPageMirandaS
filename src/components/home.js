@@ -44,7 +44,7 @@ const Home = () => {
           <div className='banner-container' id='inicio' >
             <div className='banner-content'>
               <h1 className='ayuda'>La defensa de la persona humana y el respeto de su dignidad <span>son el fin supremo de la sociedad y del Estado</span></h1>
-              <h1 className='nosotros'>(Artículo 1° Constitución Política del <span>Perú)</span></h1>
+              <h2 className='nosotros'>(Artículo 1° Constitución Política del <span>Perú)</span></h2>
               <button className="boton">
                 <a href='#formulario'>Contactanos</a>
               </button>
@@ -113,7 +113,7 @@ const Home = () => {
             <img src={staff} alt="staff-picture" />
           </div>
         </main>
-        <div className='beneficios-sections'>
+        <div className='alianzas-sections'>
 
           <h2>
             ALIANZAS ESTRATÉGICAS

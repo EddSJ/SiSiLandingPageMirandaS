@@ -22,6 +22,11 @@
         margin: 0;
         font-size: 3rem;
     }
+
+    h2 {
+        margin: 0;
+        font-size: 2rem;
+    }	
 }
 
 .banner-content{
@@ -104,11 +109,13 @@
         height: 400px;
         width: 360px;
         margin: 0 10px;
-        background-color: rgb(50, 49, 49);
+        background-color: #4e5b61;
         text-align: center;
         color: whitesmoke;
+        border-radius: 10px;
         z-index: 2;
         letter-spacing: 1px;
+        box-shadow: inset 19px -4px 148px 44px rgba(0,0,0,0.75);
 
 
         h2 {
@@ -162,13 +169,16 @@
 
 }
 
-.beneficios-sections {
+.alianzas-sections {
     background-color: rgb(51, 50, 50);
     text-align: center;
     color: aliceblue;
-    height: 300px;
+    height: 350px;
     box-shadow: 8px 4px 337px 18px rgba(0,0,0,0.86) inset;
 
+    h2 {
+        padding: 20px;
+    }
 }
 
 .alianza-grid {
