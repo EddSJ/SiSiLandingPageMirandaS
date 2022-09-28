@@ -14,7 +14,7 @@ import {
 
 //imagenes
 import whatsapp from "../assets/whatsapp.png"
-import staff from "../assets/staff.png"
+import staff from "../assets/quiene-somos.jpg"
 import alianzaA from "../assets/alianza-a.png"
 import alianzaB from "../assets/alianza-b.png"
 import alianzaC from "../assets/alianza-c.png"
