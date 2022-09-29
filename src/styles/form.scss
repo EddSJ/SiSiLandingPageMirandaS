@@ -3,6 +3,11 @@
     height: 450px;
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        width: auto;
+        height: auto;
+    }
 }
 
 .form-map-grid {
@@ -12,6 +17,11 @@
     margin: 0 auto;
     align-items: center;
     // margin-top: 25px;
+    @media screen and (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
 
     .map {
         text-align: center;
@@ -29,7 +39,6 @@
                 color: #4e5b61;
             }
         }
-
     }
 
     form {

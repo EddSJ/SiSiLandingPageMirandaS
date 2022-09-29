@@ -9,6 +9,30 @@
     width: 100%;
     height: 50px;
     z-index: 100;
+    svg {
+        display: none;
+    }
+
+    @media screen and (max-width: 777px) {
+        position: static;
+        z-index: 100;
+    }
+
+    @media screen and (max-width: 500px) {
+        height: 65px;
+        width: 100%;
+        justify-content: space-between;
+        background-color: transparent;
+        box-shadow: none;
+        position: absolute;
+
+        svg {
+            display: block;
+            color: #4e5b61;
+            font-size: 2.2rem;
+            margin-right: 12px;
+        }
+    }
 }
 
 .logo-marca-wrapper {
@@ -27,6 +51,18 @@
     img {
         height: 100%;
         width: auto;
+    }
+    @media screen and (max-width: 780px) {
+        position: static;
+        z-index: 100;
+    }
+
+    @media screen and (max-width: 500px) {
+        position: static;
+        height: 100px;
+        width: 100px;
+        margin-bottom: -35px;
+        margin-left: 0;
     }
 }
 
@@ -49,5 +85,23 @@
             color: #f1c40f;
         }
     }
+    
+    @media screen and (max-width: 500px) {
+        width: 100%;
+
+        a {
+            font-size: 1.1em;
+            padding: 0%;
+            margin-right: 15px;
+            color: white;
+        }        
+    }        
+}
+
+.small-view {
+    background-color: #4e5b61;
+    display: flex;
+    flex-direction: column;
+    
 }
 
