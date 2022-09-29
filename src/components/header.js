@@ -14,7 +14,7 @@ const Header = () => {
         <div className='nav-bar'>
             <a href='#inicio'>Inicio</a> 
             <a href='#staff'>Quienes somos</a>
-            <a href='#redes'>Nuestros servicios</a>
+            <a href='#servicios'>Nuestros servicios</a>
         </div>
     </div>
   );

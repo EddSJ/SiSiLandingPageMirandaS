@@ -44,11 +44,11 @@ const Form = () => {
     };
 
   return (
-    <div className='form-map-wrapper' id='formulario'>
+    <div className='form-map-wrapper' >
         <div className="form-map-grid">
             <form onSubmit={sendEmail}>
-                <h1>Contacta con un especialista</h1>
-                <p>Te asesoramos y defendemos tus derechos</p>
+                <h1>Contactanos</h1>
+                <p>Un asesor legal se comunicará con usted</p>
 
                 <label><h1>Nombre</h1></label>
                 <input type="text" id='nombre' name='nombre' value={nombreValor} onChange={handleChangeNombre} required />
@@ -56,7 +56,7 @@ const Form = () => {
                 <label><h1>Email</h1></label>
                 <input type="email" id="email" name="email" value={emailValor} onChange={handleChangeEmail}  required/>
 
-                <label><h1>Asunto</h1></label>
+                <label><h1>Detalle de caso</h1></label>
                 <textarea id='asunto' name='asunto' value={asuntoValor} onChange={handleChangeAsunto} required/>
 
                 <div className='btn-container'>

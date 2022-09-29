@@ -8,7 +8,6 @@ import {
   faScaleBalanced,
   faScroll, 
   faChalkboardUser,
-  faClock,
   faBuilding
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -45,16 +44,14 @@ const Home = () => {
             <div className='banner-content'>
               <h1 className='ayuda'>La defensa de la persona humana y el respeto de su dignidad <span>son el fin supremo de la sociedad y del Estado</span></h1>
               <h2 className='nosotros'>(Artículo 1° Constitución Política del <span>Perú)</span></h2>
-              <button className="boton">
-                <a href='#formulario'>Contactanos</a>
-              </button>
+              <a href='#formulario' id='servicios' >Contactanos</a>              
             </div>
           </div>
         </div>
         <div className='whatsapp-icon'>
             <img src={whatsapp} alt="whatsapp-logo" onClick={redirectWhatsApp} /> 
         </div>
-        <div className='info-cartas' id='servicios'>
+        <div className='info-cartas' >
           <section>
             <FontAwesomeIcon icon={ faScroll } />
             <h2>AREA DE LIGITACIÓN PROCESAL</h2>
@@ -94,20 +91,21 @@ const Home = () => {
             </p>
           </section>
         </div>
-        <main className='main-wrapper' id='staff'>
+        <div id='staff'></div>
+        <main className='main-wrapper' >
           <div className='main-content' >
             <h1>
               Quienes Somos
             </h1>
-            <h3>Estudios Miranda & Abogados</h3>
+            <h3>ESTUDIO MIRANDA RAMOS & ABOGADOS</h3>
         	  <p>
               Es una firma Jurídica que cuenta con un equipo de letrados prefesionales con experiencia en ligitación procesal con énfasis en
               el Derecho Procesal (Penal, Civil, Laboral entre otros), Derecho Constitucional, Contrataciones con el Estado, Derecho 
               Corporativo y Societario, Derecho Administrativo & Derecho Aduanero.
             </p>
-            <button>
-            Contactanos
-            </button>
+            
+            <a href='#formulario'>Contactanos</a>
+            
           </div>
           <div className='staff-photo'>
             <img src={staff} alt="staff-picture" />
@@ -121,23 +119,28 @@ const Home = () => {
 
           <div className='alianza-grid'>
             <section onClick={redirectAlianzaA}>
-              <img src={alianzaA} alt="alianza-a" />
+              <img className='alianzaA' src={alianzaA} alt="alianza-a" />
               <p>
-                CENTRO DE CONCILIAIÓN "DIALOGUS PER CONVENTIONEM"
+                CENTRO DE CONCILIAIÓN EXTRAJUDICIAL "DIALOGUS PER CONVENTIONEM"<bt/>
+
               </p>
             </section>
-            <section onClick={redirectAlianzaB}>
-                <img src={alianzaB} alt="alianza-b" />
+            <section  onClick={redirectAlianzaB}>
+                <img className='alianzaB' src={alianzaB} alt="alianza-b" />
                 <p>
                   ASOCIACIÓN DE INVESTIGACIÓN, DEFENSA Y PROTECCIÓN LEGAL - PROYECTO DEFIENDE
                 </p>
             </section>
             <section onClick={redirectAlianzaC}>
-              <img src={alianzaC} alt="alianza-c" />
+              <img className='alianzaC' src={alianzaC} alt="alianza-c" />
               <p>
-                AC. AUDITORIA & CONTABILIDAD
+                AC. AUDITORIA & CONTABILIDAD<br/>
+                Asesoría empresarial contable & tributaria.
               </p>
             </section>
+            <div id='formulario'> 
+                {/* ancla para el enlace  */}
+            </div>
 
           </div>
         </div>

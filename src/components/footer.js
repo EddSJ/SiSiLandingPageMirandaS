@@ -25,7 +25,7 @@ const Footer = () => {
   } 
 
   return (
-    <div>
+    <div >
     <footer className='footer-wrapper'>
         <div className='footer-grid'>
           <div className='left-row'>

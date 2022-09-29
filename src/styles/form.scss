@@ -1,9 +1,17 @@
+.form-map-wrapper {
+    background-color: #c8cacb;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
 .form-map-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 95%;
     margin: 0 auto;
     align-items: center;
+    // margin-top: 25px;
 
     .map {
         text-align: center;
@@ -54,20 +62,10 @@
         }
 
         button {
-            background-color: #f1c40f;
-            width: 120px;
-            padding: 10px 20px;
-            border-radius: 10px;
-            color: white;
-            font-size: 0.8rem;
-            cursor: pointer;
-            transition: 0.3s;
+            @include boton;
+            margin: 0;
             border: none;
-
-            &:hover {
-                background-color: lightslategrey;
-                color: #f1c40f;
-            }
+            font-size: 00.9rem;
         }
     }
 }
