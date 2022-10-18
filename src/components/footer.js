@@ -12,12 +12,12 @@ const Footer = () => {
     window.open('https://www.facebook.com/EstudioMirandaRamos')
   }
 
-  const linkInstargam = () => {
-
+  const linkTwitter = () => {
+    window.open('https://twitter.com/estudio_mramos')
   }
 
   const linkLinkedin = () => {
-
+    window.open('https://www.linkedin.com/company/estudio-miranda-ramos-abogados/about/?viewAsMember=true')
   }
 
   const linkSiSi = () => {
@@ -45,8 +45,8 @@ const Footer = () => {
           <div className='right-row' id='redes'>
             <p><b>Siguenos</b></p>
             <FaFacebookSquare className='facebook' onClick={linkFacebook} />
-            <FaTwitter className='twitter' />
-            <FaLinkedin className='linkedin' />
+            <FaTwitter className='twitter' onClick={linkTwitter} />
+            <FaLinkedin className='linkedin' onClick={linkLinkedin} />
           </div>
         </div>
     </footer>
