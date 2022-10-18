@@ -81,7 +81,7 @@ const Home = () => {
           </section>
           <section>
             <FontAwesomeIcon icon={ faScaleBalanced } />
-            <h2>UTERO SUBROGADO <span>UTERO SUBROGADO</span> </h2>
+            <h2>UTERO SUBROGADO<br/><span>x</span> </h2>
             <p>
               Asesoramos y acompañamos a nuestros clientes en este complejo proceso legal para lograr que la madre (quien tiene la voluntad 
               procreacional) ser reconocida como la madre legal del menor nacido vivo. Práctica que no está regulada, pero tampoco prohibida en 
