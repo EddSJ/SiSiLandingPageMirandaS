@@ -115,13 +115,14 @@
         height: auto;
         width: 360px;
         margin: 0 10px;
-        background-color: #4e5b61;
+        background: #ececec;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         text-align: center;
-        color: whitesmoke;
+        color: black;
         border-radius: 10px;
         z-index: 2;
         letter-spacing: 1px;
-        box-shadow: inset 19px -4px 148px 44px rgba(0,0,0,0.75);
+       
 
         svg {
             margin-top: 15px;
@@ -130,11 +131,16 @@
         h2 {
             margin: 15px;
             font-size: 1.3rem;
+
+            span {
+                color: transparent;
+            }
         }
 
         p {
             margin: 0;
             font-size: 0.9rem;
+            margin-bottom: 25px;
         }
     }
 
