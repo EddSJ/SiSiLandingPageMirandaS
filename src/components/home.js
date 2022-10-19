@@ -90,7 +90,7 @@ const Home = () => {
             </h1>
             <h3>ESTUDIO MIRANDA RAMOS & ABOGADOS</h3>
         	  <p>
-              Es una firma Jurídica que cuenta con un equipo de letrados prefesionales con experiencia en ligitación procesal con énfasis en
+              Es una firma Jurídica que cuenta con un equipo de letrados profesionales con experiencia en ligitación procesal con énfasis en
               el Derecho Procesal (Penal, Civil, Laboral entre otros), Derecho Constitucional, Contrataciones con el Estado, Derecho 
               Corporativo y Societario, Derecho Administrativo & Derecho Aduanero.
             </p>
