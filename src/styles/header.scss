@@ -109,7 +109,7 @@
     @media screen and (max-width: 500px) {
         width: 100%;
         flex-direction: column;
-        transition: ease-in-out 0.5s;
+        transition: ease-in-out 0.3s;
         align-items: flex-end;
         margin-top: 20px;
 
@@ -120,7 +120,7 @@
             color: white;
             margin-bottom: 10px;
         }
-        transform: translate(-400px,0px);
+        transform: translate(-600px,0px);
 
         &.active {
             transform: translate(0px,0px);
