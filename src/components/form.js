@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { send } from 'emailjs-com';
 
-import map from '../assets/map.png'
+import map from '../assets/mapa-abogado-1.jpg'
 
 const Form = () => {
 

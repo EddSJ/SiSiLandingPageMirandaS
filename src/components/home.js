@@ -54,38 +54,31 @@ const Home = () => {
         <div className='info-cartas' >
           <section>
             <FontAwesomeIcon icon={ faScroll } />
-            <h2>AREA DE LIGITACIÓN PROCESAL</h2>
+            <h2>AREA DE LITIGACIÓN PROCESAL</h2>
             <p>
-              Somos especialistas en la elaboraión de estrategias en procesos judiciales con disputas sobre derecho
-              civil (contractuales, familia. sicesion, etc), penal, laboral, comercial, tributario, administración pública;
-              y además, de garantías constitucioanles.
+              Somos especialistas en la elaboración de estrategias en procesos judiciales con disputas sobre derecho civil (contractuales, familia, sucesiones, etc.), penal, laboral, comercial, tributario, administración pública; y, además, de garantías constitucionales.
             </p>
           </section>
           <section>
             <FontAwesomeIcon icon={ faChalkboardUser } />
-            <h2>ASESORIÍA EMPRESARIAL CORPORATIVA</h2>
+            <h2>ASESORÍA EMPRESARIAL CORPORATIVA</h2>
             <p>
-              Acompañamiento legal integral (todas las ramas del derecho que nuestra firma maneja),
-              revisión de documnetos (legales, contractuales y/o administrativos), nuestra asesoría legal dispondrá de in énfasis 
-              especial en cuanto al derecho laboral y/o Contractual.
+            Acompañamiento legal integral (todas las ramas del derecho que nuestra firma maneja), revisión de documentos (legales, contractuales y/o administrativos), nuestra asesoría legal dispondrá de un énfasis especial en cuanto al Derecho Laboral y/o Contractual. 
             </p>
           </section>
           <section>
             <FontAwesomeIcon icon={ faBuilding } />
-            <h2>DUE DILEGENCE Y OFICIAL DE CUMPLIMIENTO</h2>
+            <h2>DUE DILIGENCE Y OFICIAL DE CUMPLIMIENTO</h2>
             <p>
-              Nuetras asesoría se enfoca en la prevención de riegos penales; y, de la responsabilidad administrativa de 
-              las personas jurídicas (incluyendo a sus directivos) - COMPLIANCE, derecho penal económico o penal corporativo,
-              delitos ambientales, delitos contra la administración pública (corrupción de funcionarios).
+            Nuestra asesoría se enfoca en la prevención de riegos penales; y, de la responsabilidad administrativa de las personas jurídicas (incluyendo a sus directivos) – COMPLIANCE, derecho penal económico o penal corporativo, delitos ambientales, delitos contra la administración pública (corrupción de funcionarios).
             </p>
           </section>
           <section>
             <FontAwesomeIcon icon={ faScaleBalanced } />
             <h2>UTERO SUBROGADO<br/><span>x</span> </h2>
             <p>
-              Asesoramos y acompañamos a nuestros clientes en este complejo proceso legal para lograr que la madre (quien tiene la voluntad 
-              procreacional) ser reconocida como la madre legal del menor nacido vivo. Práctica que no está regulada, pero tampoco prohibida en 
-              nuestro país.
+            Asesoramos y acompañamos a nuestros clientes en este complejo proceso legal para 
+            lograr que la madre (quien tiene la voluntad procreacional) sea reconocida como la madre legal del menor nacido vivo. Práctica que no está regulada, pero tampoco prohibida en nuestro país.
             </p>
           </section>
         </div>

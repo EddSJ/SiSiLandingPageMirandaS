@@ -75,13 +75,18 @@
     
     @media screen and (max-width: 500px) {
         .ayuda {
-            width: 100%;
+            width: 90%;
             margin-top: 80%;
+            font-size: rem;
         }
 
         .nosotros {
-            width: 100%;
+            width: 90%;
             margin-top: 1%;
+        }
+
+        a{
+            padding: 0.5rem 1rem;
         }
     }
 }
@@ -214,6 +219,14 @@
         grid-template-columns: 1fr;
         width: 100%;
         grid-auto-flow: dense;
+        h1 {
+            font-size: 2rem;
+        }
+        margin-top: 20px;
+
+        a {
+            padding: 0.5rem 1rem;
+        }
     }
 }
 
