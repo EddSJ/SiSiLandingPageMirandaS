@@ -44,7 +44,7 @@ const Home = () => {
             <div className='banner-content'>
               <h1 className='ayuda'>La defensa de la persona humana y el respeto de su dignidad <span>son el fin supremo de la sociedad y del Estado</span></h1>
               <h2 className='nosotros'>(Artículo 1° Constitución Política del <span>Perú)</span></h2>
-              <a href='#formulario' id='servicios' >Contactanos</a>              
+              <a href='#formulario' id='servicios' >Contáctanos</a>              
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Home = () => {
         <div className='info-cartas' >
           <section>
             <FontAwesomeIcon icon={ faScroll } />
-            <h2>AREA DE LITIGACIÓN PROCESAL</h2>
+            <h2>ÁREA DE LITIGACIÓN PROCESAL</h2>
             <p>
               Somos especialistas en la elaboración de estrategias en procesos judiciales con disputas sobre derecho civil (contractuales, familia, sucesiones, etc.), penal, laboral, comercial, tributario, administración pública; y, además, de garantías constitucionales.
             </p>
@@ -95,7 +95,7 @@ const Home = () => {
               Corporativo y Societario, Derecho Administrativo & Derecho Aduanero.
             </p>
             
-            <a href='#formulario'>Contactanos</a>
+            <a href='#formulario'>Contáctanos</a>
             
           </div>
           <div className='staff-photo'>
